@@ -19,6 +19,10 @@ public:
     UAthenaMusicPackItemDefinition();
     UFUNCTION(BlueprintCallable, BlueprintPure)
     TSoftObjectPtr<UTexture2D> GetCoverArt() const;
-    
+
+    virtual FPrimaryAssetId GetPrimaryAssetId() const override
+    {
+        return FPrimaryAssetId("AthenaMusicPack", GetFName());
+    }
 };
 

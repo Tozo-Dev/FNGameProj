@@ -10,7 +10,7 @@ UCLASS(Blueprintable, MinimalAPI)
 class UAthenaMusicPackItemDefinition : public UAthenaCosmeticItemDefinition {
     GENERATED_BODY()
 public:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (AllowPrivateAccess = "true", AssetBundles = "Equipped"))
     TSoftObjectPtr<USoundBase> FrontEndLobbyMusic;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

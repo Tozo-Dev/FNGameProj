@@ -19,6 +19,7 @@
 #include "SupplyDropModifierData.h"
 #include "Templates/SubclassOf.h"
 #include "WinConditionScoreData.h"
+#include "AnimationSharing/Public/AnimationSharingSetup.h"
 #include "FortPlaylistAthena.generated.h"
 
 class AFortInGameMapManager;
@@ -360,8 +361,8 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bUsesAnimationSharing;
     
-   // UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true)) didnt exist in s7
-  //  TSoftObjectPtr<UAnimationSharingSetup> AnimationSharingSetup;
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    TSoftObjectPtr<UAnimationSharingSetup> AnimationSharingSetup;
     
 protected:
     UPROPERTY(AssetRegistrySearchable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

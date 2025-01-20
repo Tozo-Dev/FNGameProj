@@ -849,11 +849,11 @@
 		},
 		{
 			"Name": "AlembicHairImporter",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "HairStrands",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "MovieRenderPipeline",

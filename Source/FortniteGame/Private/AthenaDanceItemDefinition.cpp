@@ -25,7 +25,5 @@ UAthenaDanceItemDefinition::UAthenaDanceItemDefinition(const FObjectInitializer&
     GroupEmoteFollowerRotationYawOffset = 1;
     ItemType = EFortItemType::AthenaDance;
     WalkForwardSpeed = 300.00f;
-    ItemType = EFortItemType::AthenaDance;
-    GameplayTags.AddTag(FGameplayTag::RequestGameplayTag(FName("Cosmetics.EmoteType.Dance")));
 }
 

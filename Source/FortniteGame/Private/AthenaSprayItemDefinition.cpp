@@ -18,7 +18,5 @@ UAthenaSprayItemDefinition::UAthenaSprayItemDefinition(const FObjectInitializer&
     : Super(ObjectInitializer) {
     bUseBannerAsTexture = false;
     ItemType = EFortItemType::AthenaDance;
-    GameplayTags.RemoveTag(FGameplayTag::RequestGameplayTag(FName("Cosmetics.EmoteType.Dance")));
-    GameplayTags.AddTag(FGameplayTag::RequestGameplayTag(FName("Cosmetics.EmoteType.Spray")));
 }
 

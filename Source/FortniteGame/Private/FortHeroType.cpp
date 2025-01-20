@@ -31,7 +31,6 @@ UFortHeroType::UFortHeroType(const FObjectInitializer& ObjectInitializer)
     HeroCosmeticBackblingDefinition = NULL;
     FrontEndBackPreviewRotationOffset = 1;
     ItemType = EFortItemType::Hero;
-    RequiredGPTags.AddTag(FGameplayTag::RequestGameplayTag(FName("Unlocks.Class.Commando")));
 }
 
 USkeletalMesh* UFortHeroType::GetPreviewBaseMesh() const

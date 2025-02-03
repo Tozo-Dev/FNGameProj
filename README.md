@@ -9,7 +9,7 @@
 - [7.40](https://github.com/zyloxmods/FNGameProj/tree/7.40)
 - [8.51](https://github.com/zyloxmods/FNGameProj/tree/8.51)
 - [9.10](https://github.com/zyloxmods/FNGameProj/tree/9.10)
-- [11.31/12.41](https://github.com/zyloxmods/FNGameProj/tree/9.10)
+- [11.31/12.41](https://github.com/Tozo-Dev/FNGameProj/tree/Fortnite%2BRelease-11.31/12.41)
 - [14.30](https://github.com/zyloxmods/FNGameProj/tree/14.30) 
 
 

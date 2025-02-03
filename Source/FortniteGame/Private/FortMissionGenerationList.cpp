@@ -1,5 +1,4 @@
-#include "FortMissionGenerationList.h"
+// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
 
-UFortMissionGenerationList::UFortMissionGenerationList() {
-}
+#include "FortMissionGenerationList.h"
 

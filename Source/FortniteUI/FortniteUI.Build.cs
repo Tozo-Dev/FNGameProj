@@ -1,88 +1,14 @@
-using UnrealBuildTool;
+using UnrealBuildTool; 
 
-public class FortniteUI : ModuleRules {
-    public FortniteUI(ReadOnlyTargetRules Target) : base(Target) {
-        PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-        bLegacyPublicIncludePaths = false;
-        ShadowVariableWarningLevel = WarningLevel.Warning;
-        
-        PublicDependencyModuleNames.AddRange(new string[] {
-            "AIModule",
-            "Account",
-            "AmbientAudio",
-            "AnimGraphRuntime",
-            "AnimationBudgetAllocator",
-            "AnimationCore",
-            "AnimationSharing",
-            "AssetRegistry",
-            "AudioMixer",
-            "BlueprintContext",
-            "Chaos",
-            "CinematicCamera",
-            "ClientPilot",
-            "ClothingSystemRuntimeInterface",
-            "CommonDialogueRuntime",
-            "CommonInput",
-            "CommonUI",
-            "Core",
-            "CoreUObject",
-            "Curie",
-            "DataAssetDirectory",
-            "DeveloperSettings",
-            "Engine",
-            "EpicCMSUIFramework",
-            "EpicGameplayStatsRuntime",
-            "FoleySound",
-            "Foliage",
-            "FortniteGame",
-            "GameSubCatalog",
-            "GameplayAbilities",
-            "GameplayTags",
-            "GameplayTasks",
-            "Gauntlet",
-            "HeadMountedDisplay",
-            "Hotfix",
-            "InputCore",
-            "JsonUtilities",
-            "Landscape",
-            "LauncherSocialDefaults",
-            "LauncherSocialTypes",
-            "LevelSequence",
-            "LiveLinkInterface",
-            "Lobby",
-            "McpProfileSys",
-            "MediaAssets",
-            "MediaUtils",
-            "MeshNetwork",
-            "ModularGameplay",
-            "MovieScene",
-            "MovieSceneTracks",
-            "NavigationSystem",
-            "Niagara",
-            "NiagaraAnimNotifies",
-            "NiagaraCore",
-            "NiagaraShader",
-            "OnlineSubsystem",
-            "OnlineSubsystemUtils",
-            "Overlay",
-            "Paper2D",
-            "Party",
-            "PhysXVehicles",
-            "PhysicsCore",
-            "PlayspaceSystem",
-            "PropertyPath",
-            "Rejoin",
-            "ReplicationGraph",
-            "SidecarSys",
-            "SignificanceManager",
-            "Slate",
-            "SlateCore",
-            "SocialUMG",
-            "SolarisUi",
-            "SubtitlesWidgets",
-            "UMG",
-            "Water",
-            "WebBrowser",
-        });
-    }
+public class FortniteUI: ModuleRules 
+
+{ 
+        public FortniteUI(ReadOnlyTargetRules Target) : base(Target) 
+
+        {
+                PrivateDependencyModuleNames.AddRange(new string[] {"Core", "CoreUObject", "Engine", "FortniteGame", "FortniteEditor" });
+
+                // Slate UI
+                PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore", "UMG" });
+    } 
 }

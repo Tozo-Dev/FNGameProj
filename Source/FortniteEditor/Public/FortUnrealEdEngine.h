@@ -6,8 +6,12 @@
 #include "Editor/UnrealEdEngine.h"
 #include "FortUnrealEdEngine.generated.h"
 
+/**
+ * 
+ */
 UCLASS()
 class FORTNITEEDITOR_API UFortUnrealEdEngine : public UUnrealEdEngine
 {
 	GENERATED_BODY()
+	
 };

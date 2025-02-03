@@ -1,5 +1,0 @@
-#include "FortAthenaMutator_CreativeIsPlayerTriggeredRespawnAllowed.h"
-
-AFortAthenaMutator_CreativeIsPlayerTriggeredRespawnAllowed::AFortAthenaMutator_CreativeIsPlayerTriggeredRespawnAllowed() {
-}
-

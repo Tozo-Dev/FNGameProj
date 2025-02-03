@@ -1,5 +1,0 @@
-#include "FortAthenaAISpawnerDataComponent_AffiliationBase.h"
-
-UFortAthenaAISpawnerDataComponent_AffiliationBase::UFortAthenaAISpawnerDataComponent_AffiliationBase() {
-}
-

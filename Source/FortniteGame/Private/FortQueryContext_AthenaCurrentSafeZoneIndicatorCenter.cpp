@@ -1,5 +1,0 @@
-#include "FortQueryContext_AthenaCurrentSafeZoneIndicatorCenter.h"
-
-UFortQueryContext_AthenaCurrentSafeZoneIndicatorCenter::UFortQueryContext_AthenaCurrentSafeZoneIndicatorCenter() {
-}
-

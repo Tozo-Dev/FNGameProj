@@ -1,30 +1,14 @@
-﻿using UnrealBuildTool;
+// Fill out your copyright notice in the Description page of Project Settings.
 
-public class FortniteGameTarget : TargetRules {
-	public FortniteGameTarget(TargetInfo Target) : base(Target) {
-		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange(new string[] {
-			"AnalyticsBlueprintLibrary",
-			"ArsenicCoreRuntime",
-			"ArsenicCoreUI",
-			"ArsenicRuntime",
-			"ArsenicUI",
-			"CommonDialogueRuntime",
-			"EasyAntiCheatCommon",
-			"FortniteConversationRuntime",
-			"FortniteConversationUI",
-			"FortniteEngineLoadingScreen",
-			"FortniteGame",
-			"FortniteUI",
-			"LauncherSocialDefaults",
-			"LocalNotifications",
-		});
-		RegisterModulesCreatedByRider();
-	}
+using UnrealBuildTool;
+using System.Collections.Generic;
 
-	private void RegisterModulesCreatedByRider()
+public class FortniteGameTarget : TargetRules
+{
+	public FortniteGameTarget(TargetInfo Target) : base(Target)
 	{
-		ExtraModuleNames.AddRange(new string[] { "FortniteVersion" });
-	}
+		Type = TargetType.Game;
+
+		ExtraModuleNames.AddRange( new string[] { "FortniteGame", "FortniteEditor", "FortniteUI" } );
+    }
 }

@@ -1,5 +1,5 @@
-# FNGameProj-14.30
-> This is a Unreal Project for modding a old Version of Fortnite (14.30) which has every c++ class recreated
+# FNGameProj-11.31/12.41
+> This is a Unreal Project for modding a old Version of Fortnite (11.31/12.41) which has every c++ class recreated
 
 ## How To use
 
@@ -11,7 +11,7 @@ To install the correct components for this Project , make sure the Game Developm
 -   **C++ profiling tools**
 -   **Windows 10 SDK** (10.0.18362 or newer)
 -   **Unreal Engine Installer**
-Right click the *FortniteGame.uproject* and Switch Unreal Engine version... to the coressponding unreal version for this Project which can be found here - not yet
+Right click the *FortniteGame.uproject* and Switch Unreal Engine version... to the coressponding unreal version for this Project which can be found on epic games launcher (4.24.3)
 
 Right click the *FortniteGame.uproject* and Generate Visual Studio Project Files then open the *FortniteGame.sln* and build the Project with Visual Studio
 

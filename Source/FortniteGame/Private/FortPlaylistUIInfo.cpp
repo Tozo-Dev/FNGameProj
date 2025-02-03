@@ -1,11 +1,4 @@
-#include "FortPlaylistUIInfo.h"
+// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
 
-UFortPlaylistUIInfo::UFortPlaylistUIInfo() {
-    PostGamePlacementOverlayClass = NULL;
-    VictoryStinger = NULL;
-    bIsCinematicVictory = false;
-    bShouldPushEmoteInput = false;
-    bShouldPlayOnLoss = false;
-    StingerFadesToAudioMusicAfter = 1;
-}
+#include "FortPlaylistUIInfo.h"
 

@@ -1,5 +1,0 @@
-#include "MyFortMobileHUDWidgetCustomPropertyModel_NumberDiscrete.h"
-
-UMyFortMobileHUDWidgetCustomPropertyModel_NumberDiscrete::UMyFortMobileHUDWidgetCustomPropertyModel_NumberDiscrete() {
-}
-

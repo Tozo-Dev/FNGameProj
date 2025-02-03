@@ -1,5 +1,0 @@
-#include "FortVehicleLayerAnimInstance_ShoppingCartPassenger.h"
-
-UFortVehicleLayerAnimInstance_ShoppingCartPassenger::UFortVehicleLayerAnimInstance_ShoppingCartPassenger() {
-}
-

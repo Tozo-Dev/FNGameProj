@@ -2,8 +2,8 @@
 /shelf/
 /workspace.xml
 # Rider ignored files
-/modules.xml
 /contentModel.xml
+/modules.xml
 /.idea.FortniteGame.iml
 /projectSettingsUpdater.xml
 # Editor-based HTTP Client requests

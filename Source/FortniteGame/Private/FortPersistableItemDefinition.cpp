@@ -1,6 +1,4 @@
-#include "FortPersistableItemDefinition.h"
+// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
 
-UFortPersistableItemDefinition::UFortPersistableItemDefinition(const FObjectInitializer& ObjectInitializer) 
-    : Super(ObjectInitializer) {
-}
+#include "FortPersistableItemDefinition.h"
 

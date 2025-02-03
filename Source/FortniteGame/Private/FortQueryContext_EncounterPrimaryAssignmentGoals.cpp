@@ -1,5 +1,0 @@
-#include "FortQueryContext_EncounterPrimaryAssignmentGoals.h"
-
-UFortQueryContext_EncounterPrimaryAssignmentGoals::UFortQueryContext_EncounterPrimaryAssignmentGoals() {
-}
-

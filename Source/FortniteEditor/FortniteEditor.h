@@ -3,20 +3,15 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "ModuleManager.h"
 #include "UnrealEd.h"
 #include "AssetTypeCategories.h"
+#include "SlateStyle.h"
 
 DECLARE_LOG_CATEGORY_EXTERN(LogFortEditor, All, All)
 
-class FFortniteEditor : public IModuleInterface
+class FortniteEditor : public IModuleInterface
 {
 public:
 	virtual void StartupModule() override;
-};
-
-class FFortEditorToolInterface : public IModuleInterface
-{
-public:
-	virtual void StartupModule() override;
-	virtual void ShutdownModule() override;
 };

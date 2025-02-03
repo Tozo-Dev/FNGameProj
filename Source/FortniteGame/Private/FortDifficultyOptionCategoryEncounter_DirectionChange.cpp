@@ -1,5 +1,0 @@
-#include "FortDifficultyOptionCategoryEncounter_DirectionChange.h"
-
-UFortDifficultyOptionCategoryEncounter_DirectionChange::UFortDifficultyOptionCategoryEncounter_DirectionChange() {
-}
-

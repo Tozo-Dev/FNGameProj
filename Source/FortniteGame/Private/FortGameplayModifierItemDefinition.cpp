@@ -1,12 +1,4 @@
+// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+
 #include "FortGameplayModifierItemDefinition.h"
-
-bool UFortGameplayModifierItemDefinition::IsHiddenInUI() const {
-    return false;
-}
-
-UFortGameplayModifierItemDefinition::UFortGameplayModifierItemDefinition(const FObjectInitializer& ObjectInitializer) 
-    : Super(ObjectInitializer) {
-    bHiddenInUI = false;
-    ItemType = EFortItemType::GameplayModifier;
-}
 

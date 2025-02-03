@@ -1,5 +1,0 @@
-#include "FortQueryContext_EncounterProvidedQueryLocations.h"
-
-UFortQueryContext_EncounterProvidedQueryLocations::UFortQueryContext_EncounterProvidedQueryLocations() {
-}
-

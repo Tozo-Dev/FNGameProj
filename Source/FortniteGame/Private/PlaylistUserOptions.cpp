@@ -1,6 +1,4 @@
-#include "PlaylistUserOptions.h"
+// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
 
-UPlaylistUserOptions::UPlaylistUserOptions() {
-    bSupportNoOverride = true;
-}
+#include "PlaylistUserOptions.h"
 

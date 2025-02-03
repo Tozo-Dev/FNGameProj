@@ -1,7 +1,4 @@
-#include "FortAthenaExitCraftInfo.h"
+// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
 
-UFortAthenaExitCraftInfo::UFortAthenaExitCraftInfo() {
-    ExitCaftClass = NULL;
-    ExitCraftSpawnerClass = NULL;
-}
+#include "FortAthenaExitCraftInfo.h"
 

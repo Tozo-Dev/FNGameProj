@@ -1,9 +1,4 @@
-#include "FortAccountItemDefinition.h"
+// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
 
-UFortAccountItemDefinition::UFortAccountItemDefinition(const FObjectInitializer& ObjectInitializer) 
-    : Super(ObjectInitializer) {
-    MinLevel = 0;
-    MaxLevel = 0;
-    GrantToProfileType = TEXT("campaign");
-}
+#include "FortAccountItemDefinition.h"
 

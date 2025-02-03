@@ -1,7 +1,4 @@
-#include "FortTips.h"
+// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
 
-UFortTips::UFortTips() {
-    OverrideTips = false;
-    DisplayOnPlatforms = 0;
-}
+#include "FortTips.h"
 

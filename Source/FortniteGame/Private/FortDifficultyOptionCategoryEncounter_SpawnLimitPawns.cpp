@@ -1,5 +1,0 @@
-#include "FortDifficultyOptionCategoryEncounter_SpawnLimitPawns.h"
-
-UFortDifficultyOptionCategoryEncounter_SpawnLimitPawns::UFortDifficultyOptionCategoryEncounter_SpawnLimitPawns() {
-}
-

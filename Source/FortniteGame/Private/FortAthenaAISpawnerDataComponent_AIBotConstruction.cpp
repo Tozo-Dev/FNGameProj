@@ -1,5 +1,0 @@
-#include "FortAthenaAISpawnerDataComponent_AIBotConstruction.h"
-
-UFortAthenaAISpawnerDataComponent_AIBotConstruction::UFortAthenaAISpawnerDataComponent_AIBotConstruction() {
-}
-

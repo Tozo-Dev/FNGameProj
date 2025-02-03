@@ -1,6 +1,4 @@
-#include "FortGamePvPBase.h"
+// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
 
-AFortGamePvPBase::AFortGamePvPBase() {
-    NumTeams = 0;
-}
+#include "FortGamePvPBase.h"
 

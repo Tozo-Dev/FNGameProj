@@ -1,7 +1,4 @@
-#include "FortStaticMeshActor.h"
+// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
 
-AFortStaticMeshActor::AFortStaticMeshActor() {
-    LinkCompCount = 0;
-    bUseAutoNavmeshFlags = true;
-}
+#include "FortStaticMeshActor.h"
 

@@ -1,12 +1,17 @@
+// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+
 #pragma once
+
 #include "CoreMinimal.h"
-#include "FortItemDefinition.h"
+#include "Items/FortItemDefinition.h"
 #include "FortPersistableItemDefinition.generated.h"
 
-UCLASS(Abstract, Blueprintable)
-class UFortPersistableItemDefinition : public UFortItemDefinition {
-    GENERATED_BODY()
-public:
-    UFortPersistableItemDefinition(const FObjectInitializer& ObjectInitializer);
+/**
+ * 
+ */
+UCLASS()
+class FORTNITEGAME_API UFortPersistableItemDefinition : public UFortItemDefinition
+{
+	GENERATED_BODY()
+	
 };
-

@@ -1,5 +1,0 @@
-#include "FortDifficultyOptionCategoryEncounter_PawnNumberCap.h"
-
-UFortDifficultyOptionCategoryEncounter_PawnNumberCap::UFortDifficultyOptionCategoryEncounter_PawnNumberCap() {
-}
-

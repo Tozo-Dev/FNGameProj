@@ -1,5 +1,0 @@
-#include "FortDifficultyOptionCategoryEncounter_UtilitiesAdjustment.h"
-
-UFortDifficultyOptionCategoryEncounter_UtilitiesAdjustment::UFortDifficultyOptionCategoryEncounter_UtilitiesAdjustment() {
-}
-

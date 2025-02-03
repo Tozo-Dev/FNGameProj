@@ -1,5 +1,0 @@
-#include "FortBTDecorator_GameplayAbility_DoesTargetHaveProhibitedTags.h"
-
-UFortBTDecorator_GameplayAbility_DoesTargetHaveProhibitedTags::UFortBTDecorator_GameplayAbility_DoesTargetHaveProhibitedTags() {
-}
-

@@ -1,19 +1,22 @@
 # FNGameProj
-# This is a fork of zylox's project with some tweaks, all orignal credits go to him.
+
 
 > This is a repository with Unreal Projects for different Fortnite versions
 
 ## Versions
 
 
+- [7.40](https://github.com/zyloxmods/FNGameProj/tree/7.40)
 - [8.51](https://github.com/zyloxmods/FNGameProj/tree/8.51)
 - [9.10](https://github.com/zyloxmods/FNGameProj/tree/9.10)
 - [14.30](https://github.com/zyloxmods/FNGameProj/tree/14.30) 
-- [7.40](https://github.com/zyloxmods/FNGameProj/tree/7.40)
+
 
 ## Deprectated Versions
 
 - [23.00](https://github.com/zyloxmods/FNGameProj/tree/23.00)
+
+# This is a fork of zylox's project with some tweaks, all orignal credits go to him.
 
 ## Credit
 
